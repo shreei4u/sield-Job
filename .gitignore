@@ -1,0 +1,16 @@
+# Real credentials — never commit these
+config/db_config.local.php
+.env
+
+# Installer lock + the installer itself once you've deleted it manually
+install.lock
+
+# Uploaded resumes (real user data, not code)
+private_storage/resumes/*
+!private_storage/resumes/.gitkeep
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
